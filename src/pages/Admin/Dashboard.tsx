@@ -1,7 +1,5 @@
 import AppLayout from "../../components/Layouts/AppLayout";
 import Head from "next/head";
-import useSWR from "swr";
-import axios from "../../lib/axios";
 import { useRouter } from "next/router";
 import { useAuth } from "../../hooks/auth";
 import { useEffect } from "react";
